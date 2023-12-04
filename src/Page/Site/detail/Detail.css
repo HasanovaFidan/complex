@@ -1,0 +1,42 @@
+.left img{
+    width: 90%;
+    height: 90%;
+}
+.flexo{
+    display: flex;
+    gap: 70px;
+}
+.right {
+ margin-top: 50px;
+ width: 800px;
+ height: 800px;
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+}
+.right h3{
+    color: rgb(245, 11, 11);
+    font-family: 'Bitter', serif;
+    font-size: 36px;
+}
+.right h6{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Bitter', serif;
+    color: green;
+}
+.left{
+    margin-left: 40px;
+    width: 400px;
+    height: 400px;
+    box-shadow: rgba(12, 212, 226, 0.4) 5px 5px, rgba(0, 0, 0, 0.3) 10px 10px, rgba(0, 60, 255, 0.2) 15px 15px, rgba(168, 0, 106, 0.1) 20px 20px, rgba(46, 227, 240, 0.05) 25px 25px;
+
+}
+.right p{
+    font-size: 30px;
+    font-family:  cursive;
+}
+a{
+    color: darkcyan;
+    margin-left: 20px;
+}

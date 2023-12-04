@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .header{
+    width:100%;
+    height: 85px;
+    background-color:rgb(241, 241, 241);
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  .righter h1 {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+  margin-top: 3px;
+  font-family:fantasy;
+  
+  }
+  .righter{
+    margin-left: 30px;
+  }
+  .middle a{
+    text-decoration: none;
+    margin-top:20px;
+    margin-right: 20px;
+    gap: 20px;
+    color: rgb(51, 51, 51);
+    font-size: 20px;
+    &:hover{
+        color:green;
+  
+    }
+  
+  }
+  .middle {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 16px;
+    align-items: center;
+  }
+  a{
+    text-decoration: none;
+  }
+  input{
+    width: 250px;
+    height: 50px;
+  }
+  .button{
+    height: 46px;
+    width: 100px; 
+  }
+  .lefter{
+    display: flex;
+    gap: 20px;
+    margin-top:18px;
+    margin-right: 15px;
+  }
